@@ -71,6 +71,7 @@ impl eframe::App for TemplateApp {
 
             ui.horizontal(|ui| {
                 ui.label("Write something: ");
+                ui.label("Write something like Hello World!: ");
                 ui.text_edit_singleline(&mut self.label);
             });
 
